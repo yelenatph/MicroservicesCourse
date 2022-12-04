@@ -4,7 +4,8 @@ using System;
 
 namespace Play.Catalog.Service.Entities
 {
-    public class Item
+
+    public class Item : IEntity
     {
         public Guid Id { get; set; }
 
